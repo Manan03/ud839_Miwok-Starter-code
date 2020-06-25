@@ -64,7 +64,7 @@ public class ColorsFragment extends Fragment {
         words.add(new Word("white", "kelelli", R.drawable.color_white, R.raw.color_white));
         words.add(new Word("mustard yellow", "chiwiiṭә", R.drawable.color_mustard_yellow, R.raw.color_mustard_yellow));
         words.add(new Word("dusty yellow", "ṭopiisә", R.drawable.color_dusty_yellow, R.raw.color_dusty_yellow));
-        WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.category_numbers);
+        WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.category_colors);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 

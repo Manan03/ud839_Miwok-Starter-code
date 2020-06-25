@@ -66,7 +66,7 @@ public class PhrasesFragment extends Fragment {
         words.add(new Word("I’m coming.", "әәnәm",R.raw.phrase_im_coming));
         words.add(new Word("Let’s go.", "yoowutis",R.raw.phrase_lets_go));
         words.add(new Word("Come here.", "әnni'nem",R.raw.phrase_come_here));
-        WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.category_numbers);
+        WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.category_phrases);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 
